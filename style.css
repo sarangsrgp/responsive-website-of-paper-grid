@@ -1,0 +1,128 @@
+@font-face {
+    font-family:applewoff;
+    src: url(/assets/font/BlinkMacSystemFont-Light.woff);
+}
+
+.title{
+    font-size: 13px;
+    letter-spacing: 1.1px;
+}
+.header2{
+position: sticky;top: 0px;
+background-color: black;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+    opacity: 75%;
+}
+a:hover{
+    opacity: 100%;
+text-decoration: underline;
+}
+
+
+.row{
+    padding: 11px 0 11px 0;
+}
+.bi-arrow-right{
+    font-size: 17px;
+}
+.image{
+    width: 120px;
+    height: 25.917px;
+}
+.navtext{
+    opacity: 80%;
+}
+.navtext:hover{
+    opacity: 100%;
+    text-decoration: underline;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.ac{
+    font-size: 25px;
+}
+@media (max-width:752px) {
+    .bi-person{
+        visibility: hidden;
+
+    } 
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+  }  
+
+}
+.content{
+    padding:36px 0 ;
+}
+.note:hover{
+    cursor: pointer;
+}
+
+#font{
+    font-family:applewoff;
+    font-size: 24px;
+    display: block;
+}
+#text{
+    font-size: applewoff;
+    font-size:19.8px;
+    letter-spacing: 0.66px;
+    opacity: 70%;
+    display: block;
+
+}
+    .cls{
+        padding: 66px 77px 77px 77px;
+    }
+@media (max-width:752px) {
+    .cls{
+        text-align: center;
+    }
+    
+}
+#cnt{
+    font-family: applewoff;
+    font-size: 18px;
+}
+.footercontent{
+    color: white;
+    opacity: 70%;
+    font-family: applewoff;
+    font-size: 18.6;
+    letter-spacing: 0.66px;
+    line-height: 30.4px;
+}
+.footercontent:hover{
+    cursor: pointer;
+    opacity: 100%;
+    
+}
+.bi-instagram:hover{
+    cursor: pointer;
+}
+.text1{
+    font-size:12.1px;
+}
+.list{
+    font-size: 12.1px;
+}
+.borderset{
+    border-top: 2px solid white ;
+border-color: rgba(255, 255, 255, 0.08);
+}
+.header{
+    background-color: black;
+}
+.foot{
+    background-color:black;
+}
